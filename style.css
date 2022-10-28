@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 500px;
+    height: 300px;
+    background-color: black;
+    margin: 20px auto;
+    position: relative;
+	overflow:hidden;
+}
+
+.one {
+    width: 15px;
+    height: 589px;
+    background-color: yellow;
+    position: absolute;
+    transform: rotate(60deg);
+    left: 49%;
+    top: -48%;
+    border-radius: 10px 10px 10px 10px;
+}
+.two{
+        width: 15px;
+        height: 589px;
+        background-color: yellow;
+        position: absolute;
+        transform: rotate(121deg);
+        left: 49%;
+        top: -48%;
+        border-radius: 10px 10px 10px 10px;
+}
+.three {
+    width: 481px;
+    height: 143px;
+    position: absolute;
+    left: 3%;
+    top: 0%;
+    background-color: green;
+    transform: rotate(180deg);
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.five {
+    width: 481px;
+    height: 143px;
+    position: absolute;
+    left: 2%;
+    top: 52%;
+    background-color: green;
+    transform: rotate(0deg);
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+h1{
+    text-align: center;
+    color: green;
+}
+h2{
+    text-align: center;
+    color: green;
+    font-size: 30px;
+}
